@@ -25,7 +25,7 @@ function ageChecker(age) {
     //Then print "You are a teenager!"
   } else if (age <= 12) {
       //If the age is 12 and under
-      return "You are a kid!"
+      return "You are a kid"
       //Then print "You are a kid!"
   } else {
       //If above is both false
