@@ -29,7 +29,7 @@ function ageChecker(age) {
       //Then print "You are a kid!"
   } else {
       //If above is both false
-      return "You are a grownup!"
+      return "You are a grownup"
       //Then print "You are a grownup!"
   }
 }
