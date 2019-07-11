@@ -13,7 +13,7 @@ function teenager(age) {
     //Then print "You are a teenager!"
   } else {
     //If above is false
-    return "You are not a teenager!"
+    return "You are not a teenager"
     // Then print "You are not a teenager!"
   }
 }
@@ -39,5 +39,22 @@ function ternaryTeenager(age) {
 }
 
 function switchAge(age) {
-
+  switch(age) {
+    case 13:
+      return "You are a teenager!";
+    case 14:
+      return "You are a teenager!";
+    case 15:
+      return "You are a teenager!";
+    case 16:
+      return "You are a teenager!";
+    case 17:
+      return "You are a teenager!";
+    case 18:
+      return "You are a teenager!";
+    case 19:
+      return "You are a teenager!";
+    default:
+      return "You have an age";
+  }
 }
